@@ -44,5 +44,6 @@ class Medical implements Bloodwork {
 let b = new Medical(41, 14);
 let resultHct: string = b.hctTest(Sex.male);
 let resultHgb: string = b.hgbTest(Sex.male);
+
 console.log(resultHct);
 console.log(resultHgb);
